@@ -1,0 +1,3 @@
+if: success()      # only if previous jobs succeeded (default)
+if: failure()      # only if previous jobs failed
+if: always()  
