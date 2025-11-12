@@ -35,7 +35,7 @@ jobs:
         run: pytest
   test2:
       runs-on: windows-latest
-
+      needs: test
       steps:
         # Step 1: Check out the code from the repository
         - name: Check out code
